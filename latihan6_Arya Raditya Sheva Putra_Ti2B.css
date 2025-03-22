@@ -1,0 +1,72 @@
+body {
+background: radial-gradient(circle, rgb(255, 37, 230), rgb(20, 148, 16),rgb(5,28,67));
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.content {
+background-color: #EAEAEA;
+margin: 20px auto; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto; 
+max-width: 80%; 
+padding: 50px; 
+border-radius: 50px;
+color: black;
+font-size: 24px;
+flex-direction: column;
+opacity: 1;
+}
+
+.content1 {
+    background-color: rgb(205, 181, 115); /* Warna yang lebih soft */
+    margin: 20px auto; /* Kurangi margin agar lebih rapat */
+    padding: 20px; /* Sesuaikan padding */
+    width: 80%;
+    min-height: 350px; /* Gunakan min-height agar tidak terlalu besar */
+    height: auto;
+    border-radius: 50px;
+    text-align: center;
+}
+.content2 {
+    background-color:rgb(148, 119, 24);
+    margin-top: 20px;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    flex-direction: column;
+}
+.content3 {
+    background-color: #b153a9;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    flex-direction: column;
+}
+.content4 {
+    background-color: #6c58f1;
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 00px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    flex-direction: column;
+}

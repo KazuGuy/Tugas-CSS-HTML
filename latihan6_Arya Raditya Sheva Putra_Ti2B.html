@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="latihan6_Arya Raditya Sheva Putra_Ti2B.css">
+    <style>
+        p.round3 {
+        border: 2px solid rgb(76, 255, 22);
+        border-radius: 12px;
+        padding: 5px;}
+        
+        .content1 {
+            background-color: #CCB773;
+            margin-top: 20px;
+            padding-top: 10px;
+            width: 80%;
+            margin: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            border-radius: 50px;
+            color: black;
+            font-size: 20px;
+            flex-direction: column;
+            padding-left: 20px;
+            gap: 30px;
+            text-align: center;
+        }
+        p.inset {border-style: inset;}
+            #grad1 {
+             height: 50px;
+             width: 200px;
+             display: flex;
+             justify-content: center; 
+                align-items: center;
+             border-radius: 50px;
+             background-image: linear-gradient(to right, rgb(174, 240, 166) , rgb(181, 149, 232));
+              }
+              .container {
+    display: flex; /* Flexbox utama */
+    justify-content: center; /* Pusatkan Grid */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(to right, rgb(253, 194, 100), rgb(95, 32, 93));
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(253, 194, 100), rgb(95, 32, 93));
+}
+
+.flex-item {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, lightgreen, lightpurple);
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    height: 100px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+h3 {
+  text-shadow: 2px 2px rgb(255, 207, 47);
+}
+
+    </style>
+</head>
+<body>
+ <!-- CSS Eksternal-->
+    <div class="body">
+        <div class="content">
+            <div class="content3">
+            <h1>Latihan CSS </h1>
+        </div>
+            <div class="content1">
+                <div class="content2">
+                    CSS Tutorial
+                </div>
+                <!-- Penggunaan Inline -->
+                 <!-- Penggunaan Text Color,Syntax,BG Color,Border,Fonts-->
+                <p style="background-color: rgb(45, 45, 149);color:aqua; margin-bottom: 5px;">1.Hallo Dunia</h1>
+                <p style="color: rgb(82, 82, 73); text-align:justify; font-family: fantasy; font-style: italic; font-size: 17px ; ">
+                    2.Selamat datang di website saya, saya adalah seorang mahasiswa yang sedang belajar tentang CSS.
+                    Saya sangat tertarik dengan CSS karena dapat mengubah tampilan website menjadi lebih menarik dan interaktif.
+                    <br style="text-align: center;">Dalam CSS,Komentar dapat dimanipulasikan
+                    Contohnya adalah: </br>
+                </p>
+                <p style="color: rgb(178, 58, 199); text-align:justify; font-family: fantasy; font-size: 17px ;">
+                    4. /* Ini adalah komentar */
+                </p>
+                <p class="inset">5.Penggunaan Inset Border.</p>
+            </div>
+            <div class="content1">
+                <div class="content2">
+                    CSS Advanced
+                </div>
+                <div id="grad1"><h3>Hallo Dunia </h></div>
+                <div class="grid-container">
+                    <div id="grad1">A.Satu</div>
+                    <div id="grad1">B.Dua</div>
+                    <div id="grad1">C.Tiga</div>
+                    <div id="grad1">D.Empat</div>
+                  </div>
+                </p>
+            </div>
+        </div>
+     
+</body>
+</html>
